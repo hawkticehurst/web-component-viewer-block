@@ -4,9 +4,12 @@ import BlockComponent from "./BlockComponent.svelte";
 
 import "./index.css";
 
+// const repoUrl = "https://blocks.githubnext.com/githubnext/blocks";
+const repoUrl = "https://blocks.githubnext.com/hawkticehurst/web-component-viewer-block";
+
 // redirect from the server to the production blocks frame
 if (window === window.top) {
-  window.location.href = `https://blocks.githubnext.com/githubnext/blocks?devServer=${encodeURIComponent(
+  window.location.href = `${repoUrl}?devServer=${encodeURIComponent(
     window.location.href
   )}`;
 }
@@ -17,11 +20,11 @@ const loadDevServerBlock = async (block: Block) => {
   const imports = import.meta.glob("../blocks/**");
   const importPath = "../" + block.entry;
   const importContent = imports[importPath];
-  const content = await importContent();
+  const content: any = await importContent();
 
-  let component;
+  let component: any;
 
-  return (props) => {
+  return (props: any) => {
     const fullProps = {
       ...props,
       BlockComponent: getBlockComponentWithParentContext(props.context),
@@ -40,7 +43,7 @@ const getBlockComponentWithParentContext = (
   parentContext?: FileContext | FolderContext
 ) => {
   class BlockComponentWithParentContext extends BlockComponent {
-    constructor(options) {
+    constructor(options: any) {
       let context = {
         ...(parentContext || {}),
         ...(options.parentContext || {}),
