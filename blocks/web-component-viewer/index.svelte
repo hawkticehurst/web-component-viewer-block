@@ -15,6 +15,7 @@
   <counter-button></counter-button>
   <basic-timer></basic-timer>
   <scoped-styled-text></scoped-styled-text>
+  <vscode-button>Button Text</vscode-button>
 </div>
 
 <style>

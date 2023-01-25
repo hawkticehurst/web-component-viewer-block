@@ -7,7 +7,9 @@
     "start-https": "node scripts/start.mjs --https=true",
     "build": "node scripts/build.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@vscode/webview-ui-toolkit": "^1.2.1"
+  },
   "devDependencies": {
     "@githubnext/blocks": "^2.3.4",
     "@githubnext/blocks-runtime": "^1.0.3",
