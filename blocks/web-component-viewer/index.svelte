@@ -11,12 +11,14 @@
 </script>
 
 <div>
-  {@html metadata.component_html}
+  <hello-world></hello-world>
+  <counter-button></counter-button>
+  <basic-timer></basic-timer>
+  <scoped-styled-text></scoped-styled-text>
 </div>
 
 <style>
   div {
-    background-color: #181818;
     padding: 1rem;
     height: 100%;
     display: flex;

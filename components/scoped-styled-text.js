@@ -8,7 +8,7 @@ class ScopedStyledText extends HTMLElement {
     this.shadow.innerHTML = `
 			<style>
 				p {
-					color: pink;
+					color: purple;
 					font-family: 'Comic Sans MS', cursive;
 					margin: 0;
 				}
