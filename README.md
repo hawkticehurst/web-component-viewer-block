@@ -45,28 +45,3 @@ MIT
 
 ✌️ ❤️
 _GitHub Next_
-
-## Test
-
-<BlockComponent
-	block={{
-		"type": "file",
-		"id": "file-block",
-		"title": "Example File Block",
-		"description": "A basic file block",
-		"sandbox": true,
-		"entry": "blocks/example-file-block/index.svelte",
-		"matches": ["*.md"],
-		"example_path": "https://github.com/hawkticehurst/web-component-viewer-block/blob/main/examples/counter.html",
-		"owner": "hawkticehurst",
-		"repo": "web-component-viewer-block",
-	}}
-	context={{
-		"repo": "web-component-viewer-block",
-		"owner": "hawkticehurst",
-		"path": "examples/counter.html",
-		"sha": "main",
-		"file": "README.md"
-	}}
-	height={438}
-/>

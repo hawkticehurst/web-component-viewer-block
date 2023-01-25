@@ -1,6 +1,6 @@
 {
-  "name": "blocks-template-svelte",
-  "version": "0.0.0",
+  "name": "web-component-viewer-block",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "start": "node scripts/start.mjs",
