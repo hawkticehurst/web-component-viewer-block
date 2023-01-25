@@ -3,11 +3,11 @@
 <BlockComponent
 	block={{
 		"type": "file",
-		"id": "file-block",
+		"id": "web-component-viewer",
 		"title": "Web Component Viewer",
 		"description": "A block for viewing web components in a markdown file",
 		"sandbox": true,
-		"entry": "blocks/example-file-block/index.svelte",
+		"entry": "blocks/web-component-viewer/index.svelte",
 		"matches": ["*.js"],
 		"example_path": "https://github.com/hawkticehurst/web-component-viewer-block/blob/main/components/counter-button.js",
 		"owner": "hawkticehurst",
