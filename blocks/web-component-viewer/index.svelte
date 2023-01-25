@@ -1,9 +1,11 @@
 <script lang="ts">
   import { FileBlockProps } from '@githubnext/blocks';
-  export let { content } = $$props as FileBlockProps;
+  export let { content, metadata } = $$props as FileBlockProps;
 
   try {
     window.eval(content);
+    console.log();
+    
   } catch(err) {
     console.log("There was an error:");
     console.log(err);
@@ -11,7 +13,7 @@
 </script>
 
 <div>
-  <counter-button></counter-button>
+  {@html metadata.component_html}
 </div>
 
 <style>

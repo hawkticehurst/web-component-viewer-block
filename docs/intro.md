@@ -20,5 +20,8 @@
 		"sha": "main",
 		"file": "docs/intro.md"
 	}}
+	metadata={{
+		"component_html": "<counter-button></counter-button>"
+	}}
 	height={438}
 />
