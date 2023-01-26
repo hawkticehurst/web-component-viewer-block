@@ -4,26 +4,6 @@ The `vscode-button` is a web component implementation of a [button element](http
 
 ![Button hero](./imgs/button-hero.png)
 
-## Implementation
-
-### Attributes
-
-| Attribute        | Type    | Description                                                                             |
-| ---------------- | ------- | --------------------------------------------------------------------------------------- |
-| `appearance`     | string  | Determines the visual appearance _(primary, secondary, icon)_ of the button.            |
-| `aria-label`     | string  | Defines a label for buttons that screen readers can use.                                |
-| `autofocus`      | boolean | Determines if the element should receive document focus on page load.                   |
-| `disabled`       | boolean | Prevents the user from interacting with the button––it cannot be pressed or focused.    |
-| `form`           | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `formaction`     | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `formenctype`    | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `formmethod`     | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `formnovalidate` | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `formtarget`     | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `name`           | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `type`           | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-| `value`          | string  | See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attributes). |
-
 ### Basic Button
 
 ```html
