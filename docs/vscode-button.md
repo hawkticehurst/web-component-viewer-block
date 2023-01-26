@@ -4,18 +4,6 @@ The `vscode-button` is a web component implementation of a [button element](http
 
 ![Button hero](./imgs/button-hero.png)
 
-## Usage
-
-### Types
-
-| Type      | Example                                                                                               | Usage                                                                              |
-| --------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Primary   | <img src="./imgs/button-types-primary.png" alt="Primary button" width="100px"/>     | Emphasizes the highest priority action in a view.                                  |
-| Secondary | <img src="./imgs/button-types-secondary.png" alt="Secondary button" width="100px"/> | Used for additional actions in a view that already features a primary action.      |
-| Icon      | <img src="./imgs/button-types-icon.png" alt="Icon button" width="50px"/>            | A space-efficient style that renders a single icon to represent a specific action. |
-
-### Best Practices
-
 | ❌ Don't                                                           | ✅ Do                                                                              |
 | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
 | ![Multiple primary buttons](./imgs/button-dont-1.png) | ![One primary and multiple secondary buttons](./imgs/button-do-1.png) |
