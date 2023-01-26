@@ -4,31 +4,6 @@ The `vscode-button` is a web component implementation of a [button element](http
 
 ![Button hero](./imgs/button-hero.png)
 
-| ❌ Don't                                                           | ✅ Do                                                                              |
-| ------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| ![Multiple primary buttons](./imgs/button-dont-1.png) | ![One primary and multiple secondary buttons](./imgs/button-do-1.png) |
-| Don't use multiple primary buttons in close proximity.             | Provide a single primary button with one or more secondary actions                 |
-
-| ❌ Don't                                                                | ✅ Do                                                               |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| ![Buttons with incorrect casing](./imgs/button-dont-2.png) | ![Buttons with correct casing](./imgs/button-do-2.png) |
-| Don't use fully capitalized or lowercase text.                          | Use sentence case for all button text.                              |
-
-| ❌ Don't                                                            | ✅ Do                                                                                          |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| ![Button with a vague label](./imgs/button-dont-3.png) | ![Button with a clear label](./imgs/button-do-3.png)                              |
-| Don't use vague action text.                                        | Use clear verbs like "Save" or "Cancel" to ensure users feel confident when peforming actions. |
-
-| ❌ Don't                                                                                    | ✅ Do                                                                                  |
-| ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| ![Button used as a link](./imgs/button-dont-4.png)                            | ![Button clearly associated with the view above](./imgs/button-do-4.png) |
-| Don't use buttons as navigational elements. Use a [vscode-link](../link/README.md) instead. | Use buttons to perform actions relevant to the current view.                           |
-
-| ❌ Don't                                                                       | ✅ Do                                                                                                       |
-| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| ![Icon button used for primary action](./imgs/button-dont-5.png) | ![Icon buttons in a group](./imgs/button-do-5.png)                                            |
-| Don't use an icon button for primary actions.                                  | Use icon buttons for supporting actions in space-constrained layouts. Use icons that convey clear outcomes. |
-
 ## Implementation
 
 ### Attributes
