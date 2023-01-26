@@ -26,7 +26,7 @@ The `vscode-button` is a web component implementation of a [button element](http
 	context={{
 		"repo": "web-component-viewer-block",
 		"owner": "hawkticehurst",
-		"path": "components/toolkit.min.js",
+		"path": "components/vscode-button.build.js",
 		"sha": "main",
 		"file": "docs/vscode-button.md"
 	}}

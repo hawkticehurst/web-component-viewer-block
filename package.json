@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node scripts/start.mjs",
     "start-https": "node scripts/start.mjs --https=true",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "build:toolkit": "esbuild ./components/vscode-button.js --bundle --outfile=components/vscode-button.build.js --platform=browser"
   },
   "dependencies": {
     "@vscode/webview-ui-toolkit": "^1.2.1"
