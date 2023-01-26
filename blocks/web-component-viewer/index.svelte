@@ -11,7 +11,6 @@
 </script>
 
 <div>
-  <hello-world></hello-world>
   <counter-button></counter-button>
   <basic-timer></basic-timer>
   <scoped-styled-text></scoped-styled-text>
